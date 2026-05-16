@@ -1,5 +1,11 @@
 # Windows Troubleshooting Command Line Lab
 
+## About This Project
+
+This portfolio lab demonstrates practical Windows troubleshooting using real command-line tools and privacy-cleaned command output. It is designed for remote IT support, help desk, cloud support, and junior sysadmin roles where technicians need to gather evidence, diagnose issues, and communicate findings clearly.
+
+The lab focuses on common support workflows such as network configuration review, connectivity testing, DNS troubleshooting, route tracing, system inventory, process review, and active network connection awareness.
+
 ## Overview
 This project is a practical Windows troubleshooting portfolio lab for remote IT support, help desk, cloud support, and junior sysadmin roles. It uses real Windows command-line tools to capture troubleshooting evidence and explain how each command supports common support workflows.
 
