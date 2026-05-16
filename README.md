@@ -1,4 +1,4 @@
-# Windows Troubleshooting Command Line Lab
+# Windows Command-Line Troubleshooting Lab — Real Diagnostic Output and Support Notes
 
 ## About This Project
 
