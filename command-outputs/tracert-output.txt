@@ -1,0 +1,9 @@
+
+Tracing route to google.com [2607:f8b0:4006:80f::200e]
+over a maximum of 30 hops:
+
+  1     2 ms     1 ms     1 ms  2607:fb92:1981:7445:4c62:4017:c796:181f 
+  2    23 ms    19 ms    10 ms  fd00:976a:280:4001::7 
+  3     *        *       37 ms  fd00:976a:280:4001::8 
+  4     *        *        *     Request timed out.
+  5     *        *     

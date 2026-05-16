@@ -1,0 +1,74 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : [HOSTNAME_REDACTED]
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : lan
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address . . . . . . . . . : [REDACTED]
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address . . . . . . . . . : [REDACTED]
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : lan
+   Description . . . . . . . . . . . : Intel(R) Wi-Fi 6E AX211 160MHz
+   Physical Address . . . . . . . . . : [REDACTED]
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : [REDACTED]
+   IPv6 Address. . . . . . . . . . . : [REDACTED]
+   IPv6 Address. . . . . . . . . . . : [REDACTED]
+   Lease Obtained. . . . . . . . . . : Saturday, May 16, 2026 3:32:39 PM
+   Lease Expires . . . . . . . . . . : Saturday, May 16, 2026 6:02:39 PM
+   Temporary IPv6 Address. . . . . . . . . . . : [REDACTED]
+   Temporary IPv6 Address. . . . . . . . . . . : [REDACTED]
+   Link-local IPv6 Address. . . . . . . . . . . : [REDACTED]
+   IPv4 Address. . . . . . . . . . . : [REDACTED]
+   Subnet Mask . . . . . . . . . . . : [IP_REDACTED]
+   Lease Obtained. . . . . . . . . . : Saturday, May 16, 2026 9:23:31 AM
+   Lease Expires . . . . . . . . . . : Saturday, May 23, 2026 3:32:39 PM
+   Default Gateway . . . . . . . . . : [REDACTED]
+                                       [IP_REDACTED]
+   DHCP Server . . . . . . . . . . . : [IP_REDACTED]
+   DHCPv6 IAID . . . . . . . . . . . : 141834996
+   DHCPv6 Client DUID. . . . . . . . : [MAC_REDACTED]-[MAC_REDACTED]-11-79
+   DNS Servers . . . . . . . . . . . : [REDACTED]
+                                       [IP_REDACTED]
+                                       fe80::1a60:41ff:fe55:d83e%8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address . . . . . . . . . : [REDACTED]
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : lan
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address . . . . . . . . . : [REDACTED]
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes

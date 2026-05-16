@@ -1,0 +1,11 @@
+
+Pinging [IP_REDACTED] with 32 bytes of data:
+Reply from [IP_REDACTED]: bytes=32 time=34ms TTL=112
+Reply from [IP_REDACTED]: bytes=32 time=18ms TTL=112
+Reply from [IP_REDACTED]: bytes=32 time=31ms TTL=112
+
+Ping statistics for [IP_REDACTED]:
+    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 18ms, Maximum = 34ms, Average = 27ms
+Control-C

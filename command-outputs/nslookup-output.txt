@@ -1,0 +1,7 @@
+Server:  UnKnown
+Address:  fe80::1a60:41ff:fe55:d83e
+
+Name:    google.com
+Addresses:  2607:f8b0:4006:810::200e
+	  [IP_REDACTED]
+

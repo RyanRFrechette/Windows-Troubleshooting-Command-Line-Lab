@@ -1,0 +1,76 @@
+
+Host Name: [REDACTED]
+OS Name:                       Microsoft Windows 11 Pro
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner: [REDACTED]
+Registered Organization:       N/A
+Product ID: [REDACTED]
+Original Install Date: [REDACTED]
+System Boot Time: [REDACTED]
+System Manufacturer: [REDACTED]
+System Model: [REDACTED]
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 191 Stepping 2 GenuineIntel ~2100 Mhz
+BIOS Version:                  LENOVO KWCN54WW, 10/22/2025
+Windows Directory:             C:\WINDOWS
+System Directory:              C:\WINDOWS\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:         32,576 MB
+Available Physical Memory:     21,016 MB
+Virtual Memory: Max Size:      38,208 MB
+Virtual Memory: Available:     20,462 MB
+Virtual Memory: In Use:        17,746 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\[HOSTNAME_REDACTED]
+Hotfix(s):                     5 Hotfix(s) Installed.
+                               [01]: KB5087051
+                               [02]: KB5054156
+                               [03]: KB5078674
+                               [04]: KB5089549
+                               [05]: KB5092762
+Network Card(s):               3 NIC(s) Installed.
+                               [01]: Realtek PCIe GbE Family Controller
+                                     Connection Name: Ethernet
+                                     Status:          Media disconnected
+                               [02]: Bluetooth Device (Personal Area Network)
+                                     Connection Name: Bluetooth Network Connection
+                                     Status:          Media disconnected
+                               [03]: Intel(R) Wi-Fi 6E AX211 160MHz
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     [IP_REDACTED]
+                                     IP address(es)
+                                     [01]: [IP_REDACTED]
+                                     [02]: fe80::45e4:d0bc:f1ea:f8e8
+                                     [03]: fdfe:5e6c:2e69:98de:acc8:fd92:c9c5:cdaa
+                                     [04]: 2607:fb92:1981:7445:40e2:bb1:3604:3628
+                                     [05]: fdfe:5e6c:2e69:98de:7742:fab2:d60f:46f
+                                     [06]: fdfe:5e6c:2e69:98de:48e7:96e7:2b2:aaa9
+                                     [07]: 2607:fb92:1981:7445:a910:800c:4738:2460
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     Secure Boot
+                                     DMA Protection
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Audit
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.

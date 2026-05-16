@@ -1,0 +1,131 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    [IP_REDACTED]:135            [IP_REDACTED]:0              LISTENING       1092
+  TCP    [IP_REDACTED]:445            [IP_REDACTED]:0              LISTENING       4
+  TCP    [IP_REDACTED]:5040           [IP_REDACTED]:0              LISTENING       9588
+  TCP    [IP_REDACTED]:7680           [IP_REDACTED]:0              LISTENING       4444
+  TCP    [IP_REDACTED]:49664          [IP_REDACTED]:0              LISTENING       1784
+  TCP    [IP_REDACTED]:49665          [IP_REDACTED]:0              LISTENING       1588
+  TCP    [IP_REDACTED]:49668          [IP_REDACTED]:0              LISTENING       2540
+  TCP    [IP_REDACTED]:49669          [IP_REDACTED]:0              LISTENING       3772
+  TCP    [IP_REDACTED]:49670          [IP_REDACTED]:0              LISTENING       5304
+  TCP    [IP_REDACTED]:49674          [IP_REDACTED]:0              LISTENING       5740
+  TCP    [IP_REDACTED]:49677          [IP_REDACTED]:0              LISTENING       1732
+  TCP    [IP_REDACTED]:11434        [IP_REDACTED]:0              LISTENING       23684
+  TCP    [IP_REDACTED]:47631        [IP_REDACTED]:0              LISTENING       14532
+  TCP    [IP_REDACTED]:49674        [IP_REDACTED]:53498        ESTABLISHED     5740
+  TCP    [IP_REDACTED]:49686        [IP_REDACTED]:49687        ESTABLISHED     2004
+  TCP    [IP_REDACTED]:49687        [IP_REDACTED]:49686        ESTABLISHED     2004
+  TCP    [IP_REDACTED]:49688        [IP_REDACTED]:49689        ESTABLISHED     2072
+  TCP    [IP_REDACTED]:49689        [IP_REDACTED]:49688        ESTABLISHED     2072
+  TCP    [IP_REDACTED]:49690        [IP_REDACTED]:49691        ESTABLISHED     3720
+  TCP    [IP_REDACTED]:49691        [IP_REDACTED]:49690        ESTABLISHED     3720
+  TCP    [IP_REDACTED]:53478        [IP_REDACTED]:53479        ESTABLISHED     6204
+  TCP    [IP_REDACTED]:53479        [IP_REDACTED]:53478        ESTABLISHED     6204
+  TCP    [IP_REDACTED]:53498        [IP_REDACTED]:49674        ESTABLISHED     9304
+  TCP    [IP_REDACTED]:63221        [IP_REDACTED]:0              LISTENING       22256
+  TCP    [IP_REDACTED]:139     [IP_REDACTED]:0              LISTENING       4
+  TCP    [IP_REDACTED]:50431   [IP_REDACTED]:443      TIME_WAIT       0
+  TCP    [IP_REDACTED]:51295   [IP_REDACTED]:443     ESTABLISHED     9304
+  TCP    [IP_REDACTED]:51848   [IP_REDACTED]:443       TIME_WAIT       0
+  TCP    [IP_REDACTED]:61529   [IP_REDACTED]:443     ESTABLISHED     13460
+  TCP    [IP_REDACTED]:62883   [IP_REDACTED]:443        ESTABLISHED     15200
+  TCP    [IP_REDACTED]:64682   [IP_REDACTED]:443     ESTABLISHED     13460
+  TCP    [IP_REDACTED]:65363   [IP_REDACTED]:443      TIME_WAIT       0
+  TCP    [::]:135               [::]:0                 LISTENING       1092
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:7680              [::]:0                 LISTENING       4444
+  TCP    [::]:49664             [::]:0                 LISTENING       1784
+  TCP    [::]:49665             [::]:0                 LISTENING       1588
+  TCP    [::]:49668             [::]:0                 LISTENING       2540
+  TCP    [::]:49669             [::]:0                 LISTENING       3772
+  TCP    [::]:49670             [::]:0                 LISTENING       5304
+  TCP    [::]:49674             [::]:0                 LISTENING       5740
+  TCP    [::]:49677             [::]:0                 LISTENING       1732
+  TCP    [::1]:49671            [::]:0                 LISTENING       5668
+  TCP    [::1]:56380            [::1]:2283             SYN_SENT        19136
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:50060  [2600:1901:0:c831::]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:51076  [2a06:98c1:3108::ac40:94eb]:443  ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:51288  [2607:f8b0:4004:c1f::bc]:5228  ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:53078  [2606:4700:4409::ac40:97a7]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:53492  [2603:1030:a07:a::400]:443  ESTABLISHED     5684
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:54083  [2606:4700:20::681a:b92]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:54177  [2602:f79a::1]:443     ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:54889  [2607:6bc0::10]:443    ESTABLISHED     7812
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56260  [2602:f79a::2]:443     TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56263  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56264  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56265  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56268  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56269  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56270  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56273  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56274  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56277  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56278  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56279  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56280  [2607:6bc0::10]:443    ESTABLISHED     19756
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56284  [2600:1901:0:3084::]:443  ESTABLISHED     19756
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56286  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56287  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56378  [2600:1901:0:47fc::]:443  ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:56379  [2001:67c:4e8:f004::9]:443  ESTABLISHED     14532
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:58593  [2600:1901:0:179c::]:443  ESTABLISHED     7812
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:58595  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:58597  [2001:67c:4e8:f004::9]:443  TIME_WAIT       0
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:60385  [2a06:98c1:3108::ac40:94eb]:443  ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:61215  [2603:1030:a07:a::400]:443  ESTABLISHED     14428
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:61679  [2600:1901:0:5e8a::]:443  ESTABLISHED     13460
+  TCP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:62990  [2600:1901:0:47fc::]:443  ESTABLISHED     13460
+  UDP    [IP_REDACTED]:123            *:*                                    23884
+  UDP    [IP_REDACTED]:5050           *:*                                    9588
+  UDP    [IP_REDACTED]:5353           *:*                                    27660
+  UDP    [IP_REDACTED]:5353           *:*                                    3424
+  UDP    [IP_REDACTED]:5353           *:*                                    13460
+  UDP    [IP_REDACTED]:5353           *:*                                    13460
+  UDP    [IP_REDACTED]:5353           *:*                                    27660
+  UDP    [IP_REDACTED]:5355           *:*                                    3424
+  UDP    [IP_REDACTED]:49203          [IP_REDACTED]:443                           7812
+  UDP    [IP_REDACTED]:50564          *:*                                    13460
+  UDP    [IP_REDACTED]:52126          *:*                                    3424
+  UDP    [IP_REDACTED]:60479          [IP_REDACTED]:443                       13460
+  UDP    [IP_REDACTED]:61191          *:*                                    13460
+  UDP    [IP_REDACTED]:62482          *:*                                    3424
+  UDP    [IP_REDACTED]:62896          [IP_REDACTED]:443                           13460
+  UDP    [IP_REDACTED]:65009          *:*                                    3424
+  UDP    [IP_REDACTED]:1900         *:*                                    18512
+  UDP    [IP_REDACTED]:10030        *:*                                    16440
+  UDP    [IP_REDACTED]:10031        *:*                                    25428
+  UDP    [IP_REDACTED]:49664        [IP_REDACTED]:49664                        5092
+  UDP    [IP_REDACTED]:58749        *:*                                    16440
+  UDP    [IP_REDACTED]:60875        *:*                                    18512
+  UDP    [IP_REDACTED]:137     *:*                                    4
+  UDP    [IP_REDACTED]:138     *:*                                    4
+  UDP    [IP_REDACTED]:1900    *:*                                    18512
+  UDP    [IP_REDACTED]:2177    *:*                                    22748
+  UDP    [IP_REDACTED]:60874   *:*                                    18512
+  UDP    [::]:123               *:*                                    23884
+  UDP    [::]:5353              *:*                                    13460
+  UDP    [::]:5353              *:*                                    27660
+  UDP    [::]:5353              *:*                                    3424
+  UDP    [::]:5355              *:*                                    3424
+  UDP    [::]:49203             [2607:6bc0::10]:443                    7812
+  UDP    [::]:50564             [2600:1901:0:47fc::]:443                  13460
+  UDP    [::]:52126             *:*                                    3424
+  UDP    [::]:60479             [2a06:98c1:3100::6812:202f]:443                  13460
+  UDP    [::]:61191             [2001:4860:482b:7700::]:443                  13460
+  UDP    [::]:62482             *:*                                    3424
+  UDP    [::]:62896             [2607:f8b0:4006:803::2003]:443                  13460
+  UDP    [::]:65009             *:*                                    3424
+  UDP    [::1]:1900             *:*                                    18512
+  UDP    [::1]:60873            *:*                                    18512
+  UDP    [2607:fb92:1981:7445:40e2:bb1:3604:3628]:2177  *:*                                    22748
+  UDP    [2607:fb92:1981:7445:a910:800c:4738:2460]:2177  *:*                                    22748
+  UDP    [fdfe:5e6c:2e69:98de:48e7:96e7:2b2:aaa9]:2177  *:*                                    22748
+  UDP    [fdfe:5e6c:2e69:98de:7742:fab2:d60f:46f]:2177  *:*                                    22748
+  UDP    [fdfe:5e6c:2e69:98de:acc8:fd92:c9c5:cdaa]:2177  *:*                                    22748
+  UDP    [fe80::45e4:d0bc:f1ea:f8e8%8]:1900  *:*                                    18512
+  UDP    [fe80::45e4:d0bc:f1ea:f8e8%8]:2177  *:*                                    22748
+  UDP    [fe80::45e4:d0bc:f1ea:f8e8%8]:60872  *:*                                    18512
