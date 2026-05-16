@@ -1,5 +1,9 @@
 # Windows Command-Line Troubleshooting Lab — Real Diagnostic Output and Support Notes
 
+## Recruiter TL;DR
+
+This repo proves practical Windows troubleshooting ability using real command-line diagnostics and privacy-cleaned evidence. It covers commands support technicians use every day, including `ipconfig`, `ping`, `tracert`, `nslookup`, `systeminfo`, `tasklist`, and `netstat`, with notes explaining what each command checks and how it supports help desk escalation.
+
 ## About This Project
 
 This portfolio lab demonstrates practical Windows troubleshooting using real command-line tools and privacy-cleaned command output. It is designed for remote IT support, help desk, cloud support, and junior sysadmin roles where technicians need to gather evidence, diagnose issues, and communicate findings clearly.
