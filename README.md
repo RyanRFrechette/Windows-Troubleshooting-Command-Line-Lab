@@ -58,6 +58,10 @@ Contains short support notes explaining what each command checks, why support te
 
 Remote IT support roles often require clear troubleshooting, accurate documentation, and the ability to gather evidence before escalating. This lab demonstrates those skills with real command-line examples.
 
+## Related Training
+
+This lab reinforces foundational support skills from the Google IT Support Professional Certificate, including Windows troubleshooting, command-line diagnostics, operating system concepts, and structured problem solving.
+
 ## Status
 
 MVP complete.
