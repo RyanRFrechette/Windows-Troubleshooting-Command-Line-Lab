@@ -1,39 +1,167 @@
-# Windows Command-Line Troubleshooting Lab — Real Diagnostic Output and Support Notes
+# Windows Command-Line Troubleshooting Lab
 
 ## Recruiter TL;DR
 
-This repo proves practical Windows troubleshooting ability using real command-line diagnostics and privacy-cleaned evidence. It covers commands support technicians use every day, including `ipconfig`, `ping`, `tracert`, `nslookup`, `systeminfo`, `tasklist`, and `netstat`, with notes explaining what each command checks and how it supports help desk escalation.
+This portfolio lab demonstrates practical Windows command-line troubleshooting for help desk, IT support, remote support, and junior sysadmin roles. It shows real diagnostic commands, privacy-cleaned output files, screenshot-backed proof, and short support explanations for common troubleshooting workflows.
 
-## About This Project
+> Full case study: [case-study.md](case-study.md) | Resume bullets: [resume-bullets.md](resume-bullets.md)
 
-This portfolio lab demonstrates practical Windows troubleshooting using real command-line tools and privacy-cleaned command output. It is designed for remote IT support, help desk, cloud support, and junior sysadmin roles where technicians need to gather evidence, diagnose issues, and communicate findings clearly.
+---
 
-The lab focuses on common support workflows such as network configuration review, connectivity testing, DNS troubleshooting, route tracing, system inventory, process review, and active network connection awareness.
+## Business Scenario
 
-## Goal
+A remote support technician needs to gather clear evidence from a Windows workstation before escalating a connectivity, DNS, performance, or system-support issue.
 
-Demonstrate practical command-line troubleshooting skills using real command outputs, privacy-cleaned documentation, and support-style notes.
+This lab simulates that workflow using common Windows command-line tools:
 
-## Commands Covered
+- Network configuration review
+- Internet connectivity testing
+- DNS troubleshooting
+- Route/path testing
+- System inventory review
+- Running process review
+- Active network connection review
+- Privacy-conscious documentation
 
-- `ipconfig /all`
-- `ping 8.8.8.8`
-- `ping google.com`
-- `tracert google.com`
-- `nslookup google.com`
-- `systeminfo`
-- `tasklist`
-- `netstat -ano`
+---
 
-## Project Sections
+## Tools Used
 
-### `command-outputs`
+| Tool | Purpose |
+|---|---|
+| Windows Command Prompt | Ran real troubleshooting commands and captured support evidence. |
+| PowerShell | Helped clean output files, organize screenshots, and manage Git workflow. |
+| ShareX | Captured consistent terminal screenshots for portfolio evidence. |
+| Git / GitHub | Version control, documentation, and public portfolio presentation. |
 
-Contains captured command output files with private details redacted.
+---
 
-### `troubleshooting-notes`
+## Screenshot Walkthrough
 
-Contains short support notes explaining what each command checks, why support technicians use it, and what issues it can help diagnose.
+### 1. Network Configuration Reviewed with `ipconfig /all`
+
+![Image: ipconfig all privacy-cleaned network configuration output](screenshots/01-ipconfig-all.png)
+
+What was completed:
+Captured `ipconfig /all` output from a Windows workstation and redacted sensitive host, IP, MAC, gateway, DHCP, DNS, and IPv6 details before publishing.
+
+What this proves:
+Shows the ability to review adapter configuration, DHCP status, gateway information, DNS settings, and network details while protecting private system information.
+
+Output file: [command-outputs/ipconfig-output.txt](command-outputs/ipconfig-output.txt)
+
+---
+
+### 2. Internet Connectivity Tested with `ping 8.8.8.8`
+
+![Image: ping 8.8.8.8 connectivity test output](screenshots/02-ping-ip.png)
+
+What was completed:
+Ran a ping test against Google public DNS to confirm the workstation could reach an external IP address.
+
+What this proves:
+Shows a basic connectivity check that does not depend on DNS name resolution, which helps separate internet access issues from DNS issues.
+
+Output file: [command-outputs/ping-output.txt](command-outputs/ping-output.txt)
+
+---
+
+### 3. DNS Name Connectivity Tested with `ping google.com`
+
+![Image: ping google.com DNS connectivity test output](screenshots/03-ping-domain.png)
+
+What was completed:
+Ran a ping test against `google.com` after confirming external IP connectivity.
+
+What this proves:
+Shows that DNS name resolution and internet connectivity are both working. If `ping 8.8.8.8` worked but `ping google.com` failed, that would point toward a DNS problem.
+
+Output file: [command-outputs/ping-output.txt](command-outputs/ping-output.txt)
+
+---
+
+### 4. Network Route Reviewed with `tracert google.com`
+
+![Image: tracert google.com route test output with IP details redacted](screenshots/04-tracert-google.png)
+
+What was completed:
+Captured a route trace to `google.com` and redacted public or local IP address details before publishing.
+
+What this proves:
+Shows the ability to review the path traffic takes to a destination and identify where timeouts or routing issues may appear during troubleshooting.
+
+Output file: [command-outputs/tracert-output.txt](command-outputs/tracert-output.txt)
+
+---
+
+### 5. DNS Resolution Tested with `nslookup google.com`
+
+![Image: nslookup google.com public DNS resolution output](screenshots/05-nslookup-google.png)
+
+What was completed:
+Ran `nslookup google.com` using a public DNS server and captured the resolved DNS response.
+
+What this proves:
+Shows the ability to test whether DNS can resolve a domain name and confirm that name resolution is working independently from general ping testing.
+
+Output file: [command-outputs/nslookup-output.txt](command-outputs/nslookup-output.txt)
+
+---
+
+### 6. Safe System Inventory Captured with `systeminfo`
+
+![Image: systeminfo safe Windows system inventory output](screenshots/06-systeminfo.png)
+
+What was completed:
+Captured a privacy-cleaned subset of `systeminfo` output, including Windows version, system type, memory, virtual memory, and hotfix count.
+
+What this proves:
+Shows the ability to collect useful system inventory details for escalation without publishing sensitive device identifiers such as host name, BIOS details, registered owner, or product ID.
+
+Output file: [command-outputs/systeminfo-output.txt](command-outputs/systeminfo-output.txt)
+
+---
+
+### 7. Running Processes Reviewed with `tasklist`
+
+![Image: tasklist running processes output](screenshots/07-tasklist.png)
+
+What was completed:
+Captured a list of running Windows processes from CMD.
+
+What this proves:
+Shows process-awareness for basic performance, application, and support triage. This is useful when checking whether an application or background process is running.
+
+Output file: [command-outputs/tasklist-output.txt](command-outputs/tasklist-output.txt)
+
+---
+
+### 8. Active Connections Reviewed with `netstat -ano`
+
+![Image: netstat ano active connections output with IP details redacted](screenshots/08-netstat-ano.png)
+
+What was completed:
+Captured `netstat -ano` output and redacted IP address details before publishing.
+
+What this proves:
+Shows the ability to review active network connections, listening ports, connection states, and process IDs while protecting private network information.
+
+Output file: [command-outputs/netstat-output.txt](command-outputs/netstat-output.txt)
+
+---
+
+## Project Files
+
+| Folder / File | Purpose |
+|---|---|
+| [command-outputs/](command-outputs/) | Privacy-cleaned command outputs used as evidence. |
+| [screenshots/](screenshots/) | Screenshot walkthrough images shown in this README. |
+| [troubleshooting-notes/](troubleshooting-notes/) | Short notes explaining what each command checks and why support technicians use it. |
+| [case-study.md](case-study.md) | Hiring-manager style project case study. |
+| [resume-bullets.md](resume-bullets.md) | Resume-ready project bullets and summary language. |
+| [linkedin-post.md](linkedin-post.md) | LinkedIn-ready project announcement draft. |
+
+---
 
 ## Skills Demonstrated
 
@@ -44,37 +172,35 @@ Contains short support notes explaining what each command checks, why support te
 - Route/path testing
 - System inventory review
 - Running process awareness
-- Network connection awareness
+- Active network connection awareness
 - Privacy-conscious documentation
 - Technical writing for support workflows
+- Git / GitHub portfolio documentation
+
+---
 
 ## Interview Talking Points
 
 - I used real Windows diagnostic commands and documented what each one proves in a support context.
-- I redacted private system details before publishing, which shows care around privacy and safe documentation.
+- I captured screenshot-backed proof instead of only listing commands.
+- I redacted private system and network details before publishing.
+- I used CMD for the troubleshooting workflow and PowerShell/Git for documentation automation.
 - This project demonstrates how I gather evidence before escalating an issue instead of guessing.
 
-## Hiring Relevance
+---
 
-Remote IT support roles often require clear troubleshooting, accurate documentation, and the ability to gather evidence before escalating. This lab demonstrates those skills with real command-line examples.
+## Privacy Note
+
+This project uses real Windows command-line output, but sensitive details were removed or avoided before publishing. Redacted items include host names, usernames, computer names, MAC addresses, local IP addresses, IPv6 addresses, gateway details, DHCP details, DNS details, BIOS/device identifiers, product IDs, and other private system details.
+
+---
 
 ## Related Training
 
 This lab reinforces foundational support skills from the Google IT Support Professional Certificate, including Windows troubleshooting, command-line diagnostics, operating system concepts, and structured problem solving.
 
+---
+
 ## Status
 
 Screenshot-backed complete.
-
-## Visual Evidence
-
-| Command | What it proves | Output | Screenshot |
-|---|---|---|---|
-| `ipconfig /all` | Reviews adapter configuration, DHCP, gateway, DNS, and network adapter details after privacy redaction. | [ipconfig-output.txt](command-outputs/ipconfig-output.txt) | [01-ipconfig-all.png](screenshots/01-ipconfig-all.png) |
-| `ping 8.8.8.8` | Tests basic internet connectivity without depending on DNS name resolution. | [ping-output.txt](command-outputs/ping-output.txt) | [02-ping-ip.png](screenshots/02-ping-ip.png) |
-| `ping google.com` | Tests internet connectivity and confirms DNS name resolution works. | [ping-output.txt](command-outputs/ping-output.txt) | [03-ping-domain.png](screenshots/03-ping-domain.png) |
-| `tracert google.com` | Shows the route traffic takes to a destination while keeping network details redacted. | [tracert-output.txt](command-outputs/tracert-output.txt) | [04-tracert-google.png](screenshots/04-tracert-google.png) |
-| `nslookup google.com` | Confirms DNS can resolve a domain name using a public DNS server. | [nslookup-output.txt](command-outputs/nslookup-output.txt) | [05-nslookup-google.png](screenshots/05-nslookup-google.png) |
-| `systeminfo` | Collects safe Windows system inventory details useful for support escalation. | [systeminfo-output.txt](command-outputs/systeminfo-output.txt) | [06-systeminfo.png](screenshots/06-systeminfo.png) |
-| `tasklist` | Shows running processes for basic application and performance troubleshooting. | [tasklist-output.txt](command-outputs/tasklist-output.txt) | [07-tasklist.png](screenshots/07-tasklist.png) |
-| `netstat -ano` | Shows active network connections, listening ports, connection states, and process IDs with IP details redacted. | [netstat-output.txt](command-outputs/netstat-output.txt) | [08-netstat-ano.png](screenshots/08-netstat-ano.png) |
