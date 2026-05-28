@@ -65,3 +65,10 @@ This lab reinforces foundational support skills from the Google IT Support Profe
 ## Status
 
 MVP complete.
+
+## Visual Evidence
+
+| Command | What it proves | Output | Screenshot |
+|---|---|---|---|
+
+| `ipconfig /all` | Reviews adapter configuration, DHCP, gateway, DNS, and network adapter details after privacy redaction. | [ipconfig-output.txt](command-outputs/ipconfig-output.txt) | [01-ipconfig-all.png](screenshots/01-ipconfig-all.png) |
