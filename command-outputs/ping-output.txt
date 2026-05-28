@@ -1,11 +1,25 @@
+--- ping 8.8.8.8 --- 
 
 Pinging 8.8.8.8 with 32 bytes of data:
-Reply from 8.8.8.8: bytes=32 time=33ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=59ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=41ms TTL=111
 Reply from 8.8.8.8: bytes=32 time=31ms TTL=111
-Reply from 8.8.8.8: bytes=32 time=22ms TTL=111
-Reply from 8.8.8.8: bytes=32 time=27ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=34ms TTL=111
 
 Ping statistics for 8.8.8.8:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 22ms, Maximum = 33ms, Average = 28ms
+    Minimum = 31ms, Maximum = 59ms, Average = 41ms
+ 
+--- ping google.com --- 
+
+Pinging google.com [142.250.68.206] with 32 bytes of data:
+Reply from 142.250.68.206: bytes=32 time=24ms TTL=111
+Reply from 142.250.68.206: bytes=32 time=37ms TTL=111
+Reply from 142.250.68.206: bytes=32 time=40ms TTL=111
+Reply from 142.250.68.206: bytes=32 time=22ms TTL=111
+
+Ping statistics for 142.250.68.206:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 22ms, Maximum = 40ms, Average = 30ms

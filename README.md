@@ -74,3 +74,5 @@ MVP complete.
 | `ipconfig /all` | Reviews adapter configuration, DHCP, gateway, DNS, and network adapter details after privacy redaction. | [ipconfig-output.txt](command-outputs/ipconfig-output.txt) | [01-ipconfig-all.png](screenshots/01-ipconfig-all.png) |
 
 | `ping 8.8.8.8` | Tests basic internet connectivity without depending on DNS name resolution. | [ping-output.txt](command-outputs/ping-output.txt) | [02-ping-ip.png](screenshots/02-ping-ip.png) |
+
+| `ping google.com` | Tests internet connectivity and confirms DNS name resolution works. | [ping-output.txt](command-outputs/ping-output.txt) | [03-ping-domain.png](screenshots/03-ping-domain.png) |
