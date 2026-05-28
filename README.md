@@ -80,3 +80,5 @@ MVP complete.
 | `tracert google.com` | Shows the route traffic takes to a destination while keeping network details redacted. | [tracert-output.txt](command-outputs/tracert-output.txt) | [04-tracert-google.png](screenshots/04-tracert-google.png) |
 
 | `nslookup google.com` | Confirms DNS can resolve a domain name using a public DNS server. | [nslookup-output.txt](command-outputs/nslookup-output.txt) | [05-nslookup-google.png](screenshots/05-nslookup-google.png) |
+
+| `systeminfo` | Collects safe Windows system inventory details useful for support escalation. | [systeminfo-output.txt](command-outputs/systeminfo-output.txt) | [06-systeminfo.png](screenshots/06-systeminfo.png) |
