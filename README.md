@@ -82,3 +82,5 @@ MVP complete.
 | `nslookup google.com` | Confirms DNS can resolve a domain name using a public DNS server. | [nslookup-output.txt](command-outputs/nslookup-output.txt) | [05-nslookup-google.png](screenshots/05-nslookup-google.png) |
 
 | `systeminfo` | Collects safe Windows system inventory details useful for support escalation. | [systeminfo-output.txt](command-outputs/systeminfo-output.txt) | [06-systeminfo.png](screenshots/06-systeminfo.png) |
+
+| `tasklist` | Shows running processes for basic application and performance troubleshooting. | [tasklist-output.txt](command-outputs/tasklist-output.txt) | [07-tasklist.png](screenshots/07-tasklist.png) |
