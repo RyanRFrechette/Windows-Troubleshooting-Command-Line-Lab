@@ -1,9 +1,14 @@
 
-Tracing route to google.com [2607:f8b0:4006:80f::200e]
-over a maximum of 30 hops:
+Tracing route to google.com [[REDACTED-IP]]
+over a maximum of 8 hops:
 
-  1     2 ms     1 ms     1 ms  2607:fb92:1981:7445:4c62:4017:c796:181f 
-  2    23 ms    19 ms    10 ms  fd00:976a:280:4001::7 
-  3     *        *       37 ms  fd00:976a:280:4001::8 
+  1     1 ms     1 ms     1 ms  [REDACTED-IP] 
+  2     2 ms     1 ms     2 ms  [REDACTED-IP] 
+  3    16 ms    14 ms    25 ms  [REDACTED-IP] 
   4     *        *        *     Request timed out.
-  5     *        *     
+  5    19 ms     *        *     [REDACTED-IP] 
+  6    20 ms    15 ms    19 ms  [REDACTED-IP] 
+  7     *       17 ms    20 ms  [REDACTED-IP] 
+  8    25 ms    28 ms    21 ms  [REDACTED-IP] 
+
+Trace complete.

@@ -76,3 +76,5 @@ MVP complete.
 | `ping 8.8.8.8` | Tests basic internet connectivity without depending on DNS name resolution. | [ping-output.txt](command-outputs/ping-output.txt) | [02-ping-ip.png](screenshots/02-ping-ip.png) |
 
 | `ping google.com` | Tests internet connectivity and confirms DNS name resolution works. | [ping-output.txt](command-outputs/ping-output.txt) | [03-ping-domain.png](screenshots/03-ping-domain.png) |
+
+| `tracert google.com` | Shows the route traffic takes to a destination while keeping network details redacted. | [tracert-output.txt](command-outputs/tracert-output.txt) | [04-tracert-google.png](screenshots/04-tracert-google.png) |
