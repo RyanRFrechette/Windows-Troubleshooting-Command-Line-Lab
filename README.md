@@ -64,25 +64,17 @@ This lab reinforces foundational support skills from the Google IT Support Profe
 
 ## Status
 
-MVP complete.
+Screenshot-backed complete.
 
 ## Visual Evidence
 
 | Command | What it proves | Output | Screenshot |
 |---|---|---|---|
-
 | `ipconfig /all` | Reviews adapter configuration, DHCP, gateway, DNS, and network adapter details after privacy redaction. | [ipconfig-output.txt](command-outputs/ipconfig-output.txt) | [01-ipconfig-all.png](screenshots/01-ipconfig-all.png) |
-
 | `ping 8.8.8.8` | Tests basic internet connectivity without depending on DNS name resolution. | [ping-output.txt](command-outputs/ping-output.txt) | [02-ping-ip.png](screenshots/02-ping-ip.png) |
-
 | `ping google.com` | Tests internet connectivity and confirms DNS name resolution works. | [ping-output.txt](command-outputs/ping-output.txt) | [03-ping-domain.png](screenshots/03-ping-domain.png) |
-
 | `tracert google.com` | Shows the route traffic takes to a destination while keeping network details redacted. | [tracert-output.txt](command-outputs/tracert-output.txt) | [04-tracert-google.png](screenshots/04-tracert-google.png) |
-
 | `nslookup google.com` | Confirms DNS can resolve a domain name using a public DNS server. | [nslookup-output.txt](command-outputs/nslookup-output.txt) | [05-nslookup-google.png](screenshots/05-nslookup-google.png) |
-
 | `systeminfo` | Collects safe Windows system inventory details useful for support escalation. | [systeminfo-output.txt](command-outputs/systeminfo-output.txt) | [06-systeminfo.png](screenshots/06-systeminfo.png) |
-
 | `tasklist` | Shows running processes for basic application and performance troubleshooting. | [tasklist-output.txt](command-outputs/tasklist-output.txt) | [07-tasklist.png](screenshots/07-tasklist.png) |
-
 | `netstat -ano` | Shows active network connections, listening ports, connection states, and process IDs with IP details redacted. | [netstat-output.txt](command-outputs/netstat-output.txt) | [08-netstat-ano.png](screenshots/08-netstat-ano.png) |
