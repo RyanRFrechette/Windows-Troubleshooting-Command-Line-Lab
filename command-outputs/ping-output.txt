@@ -1,11 +1,11 @@
 
-Pinging [IP_REDACTED] with 32 bytes of data:
-Reply from [IP_REDACTED]: bytes=32 time=34ms TTL=112
-Reply from [IP_REDACTED]: bytes=32 time=18ms TTL=112
-Reply from [IP_REDACTED]: bytes=32 time=31ms TTL=112
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=33ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=31ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=22ms TTL=111
+Reply from 8.8.8.8: bytes=32 time=27ms TTL=111
 
-Ping statistics for [IP_REDACTED]:
-    Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 18ms, Maximum = 34ms, Average = 27ms
-Control-C
+    Minimum = 22ms, Maximum = 33ms, Average = 28ms
