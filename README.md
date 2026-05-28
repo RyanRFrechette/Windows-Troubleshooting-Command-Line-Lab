@@ -84,3 +84,5 @@ MVP complete.
 | `systeminfo` | Collects safe Windows system inventory details useful for support escalation. | [systeminfo-output.txt](command-outputs/systeminfo-output.txt) | [06-systeminfo.png](screenshots/06-systeminfo.png) |
 
 | `tasklist` | Shows running processes for basic application and performance troubleshooting. | [tasklist-output.txt](command-outputs/tasklist-output.txt) | [07-tasklist.png](screenshots/07-tasklist.png) |
+
+| `netstat -ano` | Shows active network connections, listening ports, connection states, and process IDs with IP details redacted. | [netstat-output.txt](command-outputs/netstat-output.txt) | [08-netstat-ano.png](screenshots/08-netstat-ano.png) |
