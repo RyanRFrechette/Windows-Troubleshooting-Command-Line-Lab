@@ -78,3 +78,5 @@ MVP complete.
 | `ping google.com` | Tests internet connectivity and confirms DNS name resolution works. | [ping-output.txt](command-outputs/ping-output.txt) | [03-ping-domain.png](screenshots/03-ping-domain.png) |
 
 | `tracert google.com` | Shows the route traffic takes to a destination while keeping network details redacted. | [tracert-output.txt](command-outputs/tracert-output.txt) | [04-tracert-google.png](screenshots/04-tracert-google.png) |
+
+| `nslookup google.com` | Confirms DNS can resolve a domain name using a public DNS server. | [nslookup-output.txt](command-outputs/nslookup-output.txt) | [05-nslookup-google.png](screenshots/05-nslookup-google.png) |

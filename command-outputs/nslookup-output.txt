@@ -1,7 +1,7 @@
-Server:  UnKnown
-Address:  fe80::1a60:41ff:fe55:d83e
+Server:  dns.google
+Address:  8.8.8.8
 
 Name:    google.com
-Addresses:  2607:f8b0:4006:810::200e
-	  [IP_REDACTED]
+Addresses:  2607:f8b0:4006:812::200e
+	  142.251.211.174
 
